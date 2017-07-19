@@ -1,0 +1,10 @@
+:admin:
+  :username: <uid>
+  :password: <password>
+---
+:user:
+  :name: <name for user>
+  :email: <email address>
+  :password: <password>
+  :avatar: https://robohash.org/me-pic.png?size=300x300&set=set1
+  :location: <location>

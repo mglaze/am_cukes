@@ -1,0 +1,6 @@
+---
+browser: firefox
+driver: watir_webdriver
+proxies:
+  proxy1: <proxy>
+  proxy2: <proxy>
