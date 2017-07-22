@@ -5,14 +5,13 @@ require 'rspec'
 require 'taza'
 require 'cucumber'
 require 'watir-webdriver'
-require 'watir-scroll'
-require 'watir-webdriver/wait'
-require 'watir-webdriver/extensions/alerts'
-require 'pry-byebug'
+require 'pry'
+require 'pry-nav'
 require 'faker'
 require 'httparty'
 
 
 # Default Settings
 ENV['TAZA_ENV'] ||= 'isolation'
+ENV['BROWSER'] ||= 'chrome'
 Watir::always_locate = true

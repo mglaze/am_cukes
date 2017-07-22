@@ -1,6 +1,6 @@
 Before do
   @visitor = Audiomack.new
-  @visitor.browser.window.maximize
+  # @visitor.browser.window.maximize
   if @visitor.adverts.main_advert.present?
     @visitor.adverts.skip_advert.click
   end
@@ -15,7 +15,7 @@ Before('@signin') do
 end
 
 After do
-  @visitor.browser.close
+  @visitor.browser.quit
 end
 
 def select_random_user
